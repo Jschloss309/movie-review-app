@@ -15,6 +15,7 @@ gem 'hirb'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem "spring"
 end
 
 group :development do
